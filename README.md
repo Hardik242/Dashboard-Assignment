@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Dashboard
 
-## Getting Started
+A dynamic and customizable dashboard application built with Next.js, React, and Tailwind CSS. This project allows users to manage and view different widgets organized into categories, fulfilling the requirements of a frontend developer assignment.
 
-First, run the development server:
+## Features ✨
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This dashboard is fully interactive and includes the following features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [cite_start]**Dynamic Widget Grid:** Widgets are rendered dynamically from a centralized state managed by React Context. [cite: 48]
+- [cite_start]**Category Management:** Widgets are neatly organized into categories that are horizontally scrollable. [cite: 49]
+- [cite_start]**Add Widgets:** Users can add new widgets to a specific category by providing a title and text through a sidebar form. [cite: 52]
+- [cite_start]**Delete Widgets:** Widgets can be easily removed from any category through the "Customise" panel. [cite: 50, 88]
+- [cite_start]**Toggle Widget Visibility:** The visibility of each widget can be toggled on or off from the "Customise" panel, allowing users to hide widgets without permanently deleting them. [cite: 88]
+- [cite_start]**Centralized State Management:** The entire dashboard state is managed using the React Context API, ensuring predictable and maintainable state logic. [cite: 92]
+- **Responsive Design:** The application is built with a mobile-first approach using Tailwind CSS, ensuring a seamless experience across all devices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used 🛠️
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Library:** [React](https://reactjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **State Management:** React Context API
 
-## Learn More
+## Local Setup 🚀
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to run the project on your local machine.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Clone the Repository**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    git clone [https://github.com/Hardik242/Dashboard-Assignment.git](https://github.com/Hardik242/Dashboard-Assignment.git)
+    cd Dashboard-Assignment
+    ```
 
-## Deploy on Vercel
+2.  **Install Dependencies**
+    Use npm to install the required packages.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Run the Development Server**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in Browser**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
