@@ -4,7 +4,7 @@ A dynamic and customizable dashboard application built with Next.js, React, and 
 
 ## Live Deploy
 
-**Vercel:** [Live website](https://dashboard-assignment-henna.vercel.app/){:target="\_blank"}
+**Vercel:** <a href="https://dashboard-assignment-henna.vercel.app/" target="_blank">Live website</a>
 
 ## Features ✨
 
